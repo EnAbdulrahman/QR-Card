@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --light: hsl(212, 45%, 89%);
+  --medium: hsl(216, 15%, 48%);
+  --Dark: hsl(218, 44%, 22%);
+  --background-color: hsl(212, 76%, 85%);
+}
+* {
+    box-sizing: border-box;
+}
+.Qr-Parent {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+.Qr-Card {
+  min-height: 60vh;
+  max-height: 80vh;
+  max-width: 280px;
+  border-radius: 12px;
+  background-color: white;
+  padding: 12px;
+}
+
+.Qr-Image {
+  object-fit: cover;
+  object-position: center;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.Above-Text {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--Dark);
+  padding: 11px;
+}
+.Below-Text {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  font-family: "Roboto", sans-seri1f;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--medium);
+  padding: 5px 10px 10px 20px;
+}
