@@ -6,7 +6,7 @@
   --background-color: hsl(212, 76%, 85%);
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .Qr-Parent {
   display: flex;
@@ -16,8 +16,7 @@
   background-color: var(--background-color);
 }
 .Qr-Card {
-  min-height: 60vh;
-  max-height: 80vh;
+  height: clamp(420px, 60vh, 520px);
   max-width: 280px;
   border-radius: 12px;
   background-color: white;
