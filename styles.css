@@ -16,7 +16,7 @@
   background-color: var(--background-color);
 }
 .Qr-Card {
-  height: clamp(420px, 60vh, 520px);
+  height: clamp(420px, 60vh, 460px);
   max-width: 280px;
   border-radius: 12px;
   background-color: white;
