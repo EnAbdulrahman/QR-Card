@@ -10,7 +10,7 @@
 }
 .Qr-Parent {
   display: flex;
-  height: 100vh;
+  height: 200vh;
   justify-content: center;
   align-items: center;
   background-color: var(--background-color);
